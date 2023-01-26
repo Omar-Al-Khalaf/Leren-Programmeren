@@ -7,7 +7,7 @@ Total_vip_room = Vip_Room_In_min / Vip_Room # that is the resume vip room in 1 m
 
 # Input
 Person = int(input("Welcome to Speelhal : Entre amunt of peapol : "))
-Amount_of_Time = int(input("Enter amunt of Time u want in the VIP Room in minuten : "))
+Amount_of_Time = int(input("Enter amunt of Time u want in the VIP Room in minuten : If you don't want the Vip just type (0) "))
 
 # logic
 # this is the total entry for the person + the VIP room time.
