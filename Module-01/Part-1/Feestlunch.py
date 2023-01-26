@@ -1,10 +1,12 @@
 # ==== Start ==== #
-
-croissants = 0.39
-stokbroden = 2.78
-kortingsbonnen = 1.50
-Total = 17 * croissants + 2 * stokbroden + - kortingsbonnen
+antaalcroissants = 17
+croissantprijs = 0.39
+stokbrodenprijs = 2.78
+kortingsbonnen = 0.50
+antaalkortingsbonnen = 3
+antaalstokbroden = 2
+Total = antaalcroissants * croissantprijs + antaalstokbroden * stokbrodenprijs - kortingsbonnen * antaalkortingsbonnen
 
 # ==== Coding ==== #
 
-print('You buy 17 croissants and 2 stokbroden and you have 1.50 worth of kortingsbonnen you Total is :', Total)
+print(f'You buy {antaalcroissants} croissants and {antaalstokbroden} stokbroden and you have {antaalkortingsbonnen} worth of kortingsbonnen you Total is :', Total)
